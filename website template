@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swimming Coach!</title>
+    <style>
+        body {
+            background: url('pexels-jess-vide-5232462.jpg');
+        }
+        .left {
+            color: white;
+            display: inline-block;
+            position: relative;
+            top: 0px;
+            /* border: 2px solid red; */
+        }
+        img{
+            display: block;
+            height: 111px;
+            width: 136px;
+            padding: 20px;
+            margin: -20px;
+        }
+        .mid {
+            color: white;
+            display: block;
+            width: 61%;
+            padding: 10px;
+            margin: -75px auto;
+            border: 2px solid green;
+            border-radius: 20px;
+            background: grey;
+        }
+
+        .right {
+            color: white;
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            right: 20px;
+            /* border: 2px solid yellow; */
+        }
+        .navbar{
+            display: inline;
+            color: white;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 18px;
+            margin: 36px;
+        }
+        .navbar li a:hover{
+            color: orangered;
+        }
+        .class h5{
+            margin: 2px;
+        }
+        .bottom{
+            padding: 20px;
+            margin: 160px auto;
+            /* border: 2px solid yellow; */
+            width: 50%;
+        }
+        #text{
+            display: block;
+            margin: auto;
+            width: 500px;
+            height: 50px;
+            background: #d0d9e1;
+            border-radius: 10px;
+        }
+        #address{
+            display: block;
+            margin: auto;
+            width: 500px;
+            height: 100px;
+            background: #d0d9e1;
+            border-radius: 10px;
+        }
+        #email{
+            display: block;
+            margin: auto;
+            width: 500px;
+            height: 50px;
+            background: #d0d9e1;
+            border-radius: 10px;
+        }
+        #number{
+            display: block;
+            margin: auto;
+            width: 500px;
+            height: 50px;
+            background: #d0d9e1;
+            border-radius: 10px;
+        }
+        #submit{
+            display: block;
+            width: 30%;
+            margin:12px auto;
+            height: 30px;
+        }
+        #policy{
+            color: white;
+            text-decoration: none;
+        }
+        #refund{
+            color: white;
+            text-decoration: none;
+        }
+        #faq{
+            color: white;
+            text-decoration: none;
+        }
+        #blog{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="heder">
+        <div class="left">
+            <img src="https://cdn.dribbble.com/users/2299721/screenshots/5053814/swim_coach_logo.jpg" alt="">
+            My Swimming coach
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button id="four">email us</button>
+            <button id="button"><input type="text" placeholder="search here">search</button>
+        </div>
+        <div class="bottom">
+            <input type="text" name="text" id="text" placeholder="enter your name here">
+            <input type="text" name="address" id="address" placeholder="address">
+            <input type="email" name="email" id="email" placeholder=" enter your email here">
+            <input type="number" name="number" id="number" placeholder="enter your contact number">
+            <button id="submit">submit</button>
+        </div>
+    </header>
+    <div>
+        <footer class="footer">
+            <a href="#" id="policy">Privacy Policiy </a>&nbsp;&nbsp;&nbsp;
+            <a href="#" id="refund">Refund</a>&nbsp;&nbsp;&nbsp;
+            <a href="#" id="faq">FAQ</a>&nbsp;&nbsp;&nbsp;
+            <!-- <a href="#">Contact Us</a>&nbsp;&nbsp;&nbsp; -->
+            <a href="#" id="blog">&copy; 2020|My blogs</a>
+        </footer>
+    </div>
+</body>
+</html>
